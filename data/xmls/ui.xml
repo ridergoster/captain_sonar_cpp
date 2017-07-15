@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<resources>
+    <set path = "fonts" />
+    <font id="normal" file="normal.fnt"/>
+    <font id="weird" file="main.fnt"/>
+    
+    <set path = "images" />
+    <atlas>
+        <image file="sub_down.png" />
+        <image file="sub_left.png" />
+        <image file="sub_right.png" />
+        <image file="sub_up.png" />
+        <image file="move_down.png" />
+        <image file="move_left.png" />
+        <image file="move_right.png" />
+        <image file="move_up.png" />
+        <image file="move_down_select.png" />
+        <image file="move_left_select.png" />
+        <image file="move_right_select.png" />
+        <image file="move_up_select.png" />
+    </atlas>
+    
+    <set path = "images/ui" />
+    <atlas>
+        <image file="buttons.png" cols="2" rows="5"/>
+        <image file="exit.png" />
+        <image file="logo.png" />
+        <image file="map.png" />
+        <image file="menu.png" />
+        <image file="play.png" />
+
+        <image file="power_0.png" />
+        
+        <image file="mine_1.png" />
+        <image file="mine_2.png" />
+        <image file="mine_3.png" />
+        <image file="mine_4.png" />
+        
+        <image file="radar_1.png" />
+        <image file="radar_2.png" />
+        <image file="radar_3.png" />
+        <image file="radar_4.png" />
+        
+        <image file="silence_1.png" />
+        <image file="silence_2.png" />
+        <image file="silence_3.png" />
+        <image file="silence_4.png" />
+
+    </atlas>
+</resources>
