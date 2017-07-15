@@ -1,0 +1,9 @@
+[submodule "SDL"]
+      path = SDL
+      url = git://github.com/oxygine/SDL.git
+[submodule "oxygine-framework"]
+      path = oxygine-framework
+      url = git://github.com/oxygine/oxygine-framework.git
+[submodule "socket.io-client-cpp"]
+      path = socket.io-client-cpp
+      url = git://github.com/socketio/socket.io-client-cpp.git
