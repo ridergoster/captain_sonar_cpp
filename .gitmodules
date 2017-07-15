@@ -7,3 +7,6 @@
 [submodule "socket.io-client-cpp"]
       path = socket.io-client-cpp
       url = git://github.com/socketio/socket.io-client-cpp.git
+[submodule "captain_sonar_api"]
+	path = captain_sonar_api
+	url = https://github.com/ridergoster/captain_sonar_api.git

@@ -27,9 +27,10 @@ ClientSocket::~ClientSocket()
 sio::client& ClientSocket::Instance()
 {
     if (!connected) {
-        m_instance.connect("http://127.0.0.1:3000");
+        m_instance.connect("http://captain-sonar.herokuapp.com");
+        // online: http://captain-sonar.herokuapp.com
+        // local: http://127.0.0.1:3000
         connected = true;
     }
     return m_instance;
 }
-
