@@ -31,7 +31,7 @@ https://www.boost.org/
 [chemin de boost]/include --> Search Paths --> Header Search Paths  
 ```
 
-- ajouter les librairies suivantes dans le projet contenue dans le dossier [chemin de boost]/lib
+- ajouter les librairies suivantes dans le projet contenue dans le dossier [chemin de boost]/lib (faire un drag-drop sur le projet dans XCode)
 
 ```sh
 libboost_thread-mt.dylib
