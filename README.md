@@ -25,13 +25,13 @@ https://www.boost.org/
 /usr/local/Cellar/boost/1.64.0_1 (12,628 files, 395.7MB) *
 ```
 
-- ajouter les dossiers suivant dans les header à compiler
+- dans XCode, ajouter les configurations suivante dans target->Build Settings
 ```sh
-[chemin de boost]/lib
-[chemin de boost]/include
+[chemin de boost]/lib --> Search Paths --> Library Search Paths  
+[chemin de boost]/include --> Search Paths --> Header Search Paths  
 ```
 
-- ajouter les librairies suivantes dans le projet contenue dans le dossier /lib
+- ajouter les librairies suivantes dans le projet contenue dans le dossier [chemin de boost]/lib
 
 ```sh
 libboost_thread-mt.dylib
