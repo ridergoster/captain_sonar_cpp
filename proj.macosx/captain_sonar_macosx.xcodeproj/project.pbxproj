@@ -567,8 +567,8 @@
 				GCC_PREFIX_HEADER = "captain_sonar/captain_sonar_macosx-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					/usr/local/Cellar/boost/1.64.0_1/include/,
-					"/Users/vincentk/Github/captain_sonar/socket.io-client-cpp/lib/websocketpp/",
-					"/Users/vincentk/Github/captain_sonar/socket.io-client-cpp/lib/rapidjson/include/",
+					"../socket.io-client-cpp/lib/websocketpp/",
+					"../socket.io-client-cpp/lib/rapidjson/include/",
 				);
 				INFOPLIST_FILE = "captain_sonar_macosx-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -576,9 +576,9 @@
 					"../oxygine-framework//oxygine/third_party/macosx/libraries",
 					"../oxygine-framework//oxygine/third_party/ios/libraries",
 					/usr/local/Cellar/boost/1.64.0_1/lib/,
-					/usr/local/Cellar/boost/1.64.0_1/lib,
 				);
 				PRODUCT_NAME = captain_sonar_macosx;
+				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -592,8 +592,8 @@
 				GCC_PREFIX_HEADER = "captain_sonar/captain_sonar_macosx-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					/usr/local/Cellar/boost/1.64.0_1/include/,
-					"/Users/vincentk/Github/captain_sonar/socket.io-client-cpp/lib/websocketpp/",
-					"/Users/vincentk/Github/captain_sonar/socket.io-client-cpp/lib/rapidjson/include/",
+					"../socket.io-client-cpp/lib/websocketpp/",
+					"../socket.io-client-cpp/lib/rapidjson/include/",
 				);
 				INFOPLIST_FILE = "captain_sonar_macosx-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -601,9 +601,9 @@
 					"../oxygine-framework//oxygine/third_party/macosx/libraries",
 					"../oxygine-framework//oxygine/third_party/ios/libraries",
 					/usr/local/Cellar/boost/1.64.0_1/lib/,
-					/usr/local/Cellar/boost/1.64.0_1/lib,
 				);
 				PRODUCT_NAME = captain_sonar_macosx;
+				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
